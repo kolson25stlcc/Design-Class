@@ -1,0 +1,16 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 0.90em;
+	height: 75px;
+	text-align: center;
+}
+tr:nth-child(even) {
+	background-color: #ffea7f; /*yellow*/
+}
+tr:nth-child(odd) {
+	background-color:#c5e465; /*green*/
+}
+td {
+	width: 300px;
+}
